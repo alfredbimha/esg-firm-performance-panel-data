@@ -1,22 +1,22 @@
-# Green vs Brown Stock Volatility (GARCH)
+# ESG Scores and Firm Financial Performance (Panel Data)
 
 ## Research Question
-Do clean energy stocks exhibit different volatility dynamics than fossil fuel stocks?
+Is there a relationship between ESG performance and firm financial returns?
 
 ## Methodology
 **Language:** Python  
-**Methods:** GARCH(1,1), EGARCH, GJR-GARCH
+**Methods:** Pooled OLS, Fixed Effects, Two-way FE
 
 ## Data
-Yahoo Finance — ICLN, XLE, SPY (2015–2025)
+Yahoo Finance (30 firms × 7 years), sector ESG benchmarks
 
 ## Key Findings
-High volatility persistence across all assets; asymmetric leverage effects differ between green and brown stocks; COVID-19 caused divergent recovery patterns.
+ESG-return relationship varies by estimation method; two-way FE shows significant positive association.
 
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python code/project1_*.py
+python code/project2_*.py
 ```
 
 ## Repository Structure
